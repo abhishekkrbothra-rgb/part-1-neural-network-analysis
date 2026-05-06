@@ -14,3 +14,12 @@ Data Observation: The data is "imbalanced." Only 1.55% of customers in this list
 Missing Values: None. The data is clean.  
 
 Features: We have 4 categorical features (like Region) and several numerical features (like Monthly Charges).
+
+# Task 2: Data Preprocessing
+Feature Selection: Removed customer_id as it provides no predictive value.
+
+Encoding: Converted categorical variables (region, plan_type, etc.) into numerical format using Label Encoding.  
+
+Scaling: Applied Standard Scaling to ensure features like monthly_charges_inr and tenure_months are on a comparable scale. 
+
+Train-Test Split: Divided the 2,000 records into an 80/20 split (1,600 for training, 400 for testing).  
