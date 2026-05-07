@@ -32,3 +32,10 @@ Design: Used 3 layers (16 neurons, 8 neurons, and 1 output neuron).
 Training: Trained over 50 epochs.
 
 Results: Observed the accuracy increasing as the model learned from the features.
+
+#Task 5: Hyperparameter Experimentation
+Experiment: Changed the Learning Rate from the default (0.001) to a slower rate (0.0001).
+
+Observation: The original model reached high accuracy quickly, while the experimental model learned more slowly.
+
+Conclusion: For this dataset, the default settings were effective, but experimentation is necessary to ensure the model doesn't "overfit" (memorize) the data.
