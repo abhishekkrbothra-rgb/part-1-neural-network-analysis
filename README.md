@@ -23,3 +23,12 @@ Encoding: Converted categorical variables (region, plan_type, etc.) into numeric
 Scaling: Applied Standard Scaling to ensure features like monthly_charges_inr and tenure_months are on a comparable scale. 
 
 Train-Test Split: Divided the 2,000 records into an 80/20 split (1,600 for training, 400 for testing).  
+
+#Task 3 & 4: Neural Network Construction
+Model Type: Sequential Feed-Forward Neural Network.
+
+Design: Used 3 layers (16 neurons, 8 neurons, and 1 output neuron).
+
+Training: Trained over 50 epochs.
+
+Results: Observed the accuracy increasing as the model learned from the features.
